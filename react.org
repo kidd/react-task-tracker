@@ -1,0 +1,33 @@
+* Tutorial
+  - https://www.youtube.com/watch?v=w7ejDZ8SWv8 1:48:00
+  - https://www.youtube.com/watch?v=nTeuhbP7wdE&t=29s 7:10:30
+* npx
+  =npx create-react-app react-task-tracker= is like =npm -i create-react-app XYZ;create-react-app XYZ; npm =uninstall=
+
+* emacs
+  #+begin_src elisp
+(setq make-backup-files nil)
+(setq create-lockfiles nil)
+  #+end_src
+
+* jsx
+  - for => htmlFor
+  - class => className
+  - https://reactjs.org/docs/dom-elements.html#supported-attributes
+  - allows defaults
+  - allows requireds
+  - allows "typechecks"
+  - by default props are passed as strings, unless you foo={1} to pass js objects
+  - jsx must return 1 element. if you want to return multiple
+    elements, you wrap everything into a dummy =<> </>=
+
+* components' state
+  2 ways of defining components. Class based and function based.
+  Function components used to be "dummy", and work only for stateless
+  compoenents, and you had to use Class based components for more
+  complex components. But not anymore. With hooks, functional
+  components can be full featured.
+
+* react native
+  - https://www.youtube.com/watch?v=p1Csi_0rh5I&list=PL8kfZyp--gEXs4YsSLtB3KqDtdOFHMjWZ&index=2
+  - https://www.youtube.com/watch?v=hXDMWeD0ERM
