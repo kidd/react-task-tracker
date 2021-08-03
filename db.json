@@ -1,12 +1,6 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "text": "appointment",
-      "day": "Feb 4th",
-      "reminder": false
-    },
-    {
       "id": 2,
       "text": "another appointment",
       "day": "march 4th",
@@ -17,6 +11,18 @@
       "day": "uuu",
       "reminder": true,
       "id": 3
+    },
+    {
+      "text": "asdf",
+      "day": "",
+      "reminder": true,
+      "id": 4
+    },
+    {
+      "text": "ert",
+      "day": "",
+      "reminder": true,
+      "id": 5
     }
   ]
 }
